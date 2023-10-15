@@ -174,10 +174,10 @@ public class RegisterActivity extends AppCompatActivity {
         editTextEmail.setFocusable(false);
 
         int position;
-        if (gender.equals("Male")) {
+        if ("Male".equals(gender)) {
             position = 1;
         }
-        else if(gender.equals("Female")) {
+        else if("Female".equals(gender)) {
             position = 2;
         }
         else {
